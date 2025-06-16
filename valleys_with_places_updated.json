@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Gilgit",
+    "description": "Gateway to Gilgit-Baltistan, base hub for northern travel.",
+    "location": {
+      "lat": 35.9221,
+      "lng": 74.3089
+    },
+    "climateInfo": "Moderate summers, cold winters. Bring warm layers.",
+    "emergencyContacts": [
+      {
+        "type": "Police",
+        "name": "Gilgit Police",
+        "phone": "+92-5811-920120"
+      },
+      {
+        "type": "Hospital",
+        "name": "DHQ Hospital Gilgit",
+        "phone": "+92-5811-920130"
+      }
+    ],
+    "dangerZones": [
+      {
+        "description": "Landslide-prone area near Jaglot",
+        "coordinates": {
+          "lat": 35.7762,
+          "lng": 74.3054
+        }
+      }
+    ],
+    "places": []
+  },
+  {
+    "name": "Hunza",
+    "description": "Historic forts, scenic valley with stunning views.",
+    "location": {
+      "lat": 36.3167,
+      "lng": 74.65
+    },
+    "climateInfo": "Cool summers, freezing winters. Layered clothing recommended.",
+    "emergencyContacts": [
+      {
+        "type": "Police",
+        "name": "Hunza Police",
+        "phone": "+92-5813-920120"
+      },
+      {
+        "type": "Hospital",
+        "name": "CMH Hunza",
+        "phone": "+92-5813-920130"
+      }
+    ],
+    "dangerZones": [],
+    "places": [
+      {
+        "name": "Altit Fort",
+        "location": {
+          "lat": 36.3273,
+          "lng": 74.6466
+        },
+        "description": "A 900-year-old fort with panoramic views."
+      },
+      {
+        "name": "Baltit Fort",
+        "location": {
+          "lat": 36.3237,
+          "lng": 74.6696
+        },
+        "description": "Historic Tibetan-style fort in Karimabad."
+      },
+      {
+        "name": "Attabad Lake",
+        "location": {
+          "lat": 36.3365,
+          "lng": 74.8245
+        },
+        "description": "Turquoise lake formed by a landslide in 2010."
+      },
+      {
+        "name": "Passu Cones",
+        "location": {
+          "lat": 36.456,
+          "lng": 74.8811
+        },
+        "description": "Famous pointed mountain peaks near Gojal."
+      }
+    ]
+  },
+  {
+    "name": "Skardu",
+    "description": "Valley of lakes, cold deserts, and access to Deosai plains.",
+    "location": {
+      "lat": 35.3354,
+      "lng": 75.5412
+    },
+    "climateInfo": "Cold climate even in summers. Carry layered and warm clothing.",
+    "emergencyContacts": [
+      {
+        "type": "Police",
+        "name": "Skardu Police",
+        "phone": "+92-5825-920010"
+      },
+      {
+        "type": "Hospital",
+        "name": "DHQ Hospital Skardu",
+        "phone": "+92-5825-920020"
+      }
+    ],
+    "dangerZones": [
+      {
+        "description": "Landslide-prone area near Skardu Road",
+        "coordinates": {
+          "lat": 35.22,
+          "lng": 75.57
+        }
+      }
+    ],
+    "places": [
+      {
+        "name": "Upper Kachura Lake",
+        "location": {
+          "lat": 35.2797,
+          "lng": 75.6166
+        },
+        "description": "Clear blue lake surrounded by mountains."
+      },
+      {
+        "name": "Skardu Cold Desert",
+        "location": {
+          "lat": 35.3396,
+          "lng": 75.5439
+        },
+        "description": "Unique white sand desert at high altitude."
+      },
+      {
+        "name": "Shigar Fort",
+        "location": {
+          "lat": 35.4267,
+          "lng": 75.7585
+        },
+        "description": "Historic fort turned into a luxury residence."
+      },
+      {
+        "name": "Khaplu Fort",
+        "location": {
+          "lat": 35.1728,
+          "lng": 76.3317
+        },
+        "description": "Historic palace in Ghanche district."
+      },
+      {
+        "name": "Manthoka Waterfall",
+        "location": {
+          "lat": 35.3026,
+          "lng": 75.8107
+        },
+        "description": "Tall waterfall located in Kharmang district."
+      }
+    ]
+  },
+  {
+    "name": "Astore",
+    "description": "Lush valley known for meadows, lakes, and trekking.",
+    "location": {
+      "lat": 35.3499,
+      "lng": 74.857
+    },
+    "climateInfo": "Chilly year-round, especially at higher altitudes. Bring heavy jackets.",
+    "emergencyContacts": [
+      {
+        "type": "Police",
+        "name": "Astore Police",
+        "phone": "+92-5834-920010"
+      },
+      {
+        "type": "Hospital",
+        "name": "DHQ Hospital Astore",
+        "phone": "+92-5834-920020"
+      }
+    ],
+    "dangerZones": [
+      {
+        "description": "Mountain road with snow/landslide risk",
+        "coordinates": {
+          "lat": 35.2878,
+          "lng": 74.9322
+        }
+      }
+    ],
+    "places": [
+      {
+        "name": "Rama Lake",
+        "location": {
+          "lat": 35.3821,
+          "lng": 74.931
+        },
+        "description": "Beautiful alpine lake near Rama Meadows."
+      },
+      {
+        "name": "Rama Meadows",
+        "location": {
+          "lat": 35.3753,
+          "lng": 74.9251
+        },
+        "description": "Lush meadows surrounded by pine forests."
+      },
+      {
+        "name": "Minimarg Valley",
+        "location": {
+          "lat": 35.1964,
+          "lng": 75.1166
+        },
+        "description": "Remote, scenic valley known for serenity."
+      },
+      {
+        "name": "Domail Valley",
+        "location": {
+          "lat": 35.1889,
+          "lng": 75.1544
+        },
+        "description": "A breathtaking valley with rivers and greenery."
+      },
+      {
+        "name": "Deosai Plateau",
+        "location": {
+          "lat": 35.0095,
+          "lng": 75.4567
+        },
+        "description": "World\u2019s second-highest plateau with wildlife and Sheosar Lake."
+      }
+    ]
+  }
+]

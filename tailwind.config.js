@@ -10,6 +10,7 @@ export default {
     extend: {},
   },
   plugins: [
-    tailwindcssAnimate  // Example plugin syntax
+
+    tailwindcssAnimate, // Example plugin syntax
   ],
 }

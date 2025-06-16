@@ -1,15 +1,30 @@
-import mongoose, { Schema, model, models } from 'mongoose';
+// models/Valley.ts
+import mongoose from 'mongoose';
 
-const ValleySchema = new Schema({
-  name: { type: String, required: true },
+const DangerZoneSchema = new mongoose.Schema({
+  description: String,
   coordinates: {
     lat: Number,
     lng: Number,
   },
+});
+
+const EmergencyContactSchema = new mongoose.Schema({
+  type: String, // e.g. 'Police', 'Hospital'
+  name: String,
+  phone: String,
+});
+
+const ValleySchema = new mongoose.Schema({
+  name: { type: String, required: true },
   description: String,
-  climateNotes: String,
-  emergencyContacts: [{ type: Schema.Types.ObjectId, ref: 'EmergencyContact' }],
-  connectedValleys: [{ type: Schema.Types.ObjectId, ref: 'Valley' }]
+  center: {
+    lat: Number,
+    lng: Number,
+  },
+  emergencyContacts: [EmergencyContactSchema],
+  climateInfo: String,
+  dangerZones: [DangerZoneSchema],
 }, { timestamps: true });
 
-export default models.Valley || model('Valley', ValleySchema);
+export default mongoose.models.Valley || mongoose.model('Valley', ValleySchema);
