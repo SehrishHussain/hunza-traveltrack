@@ -1,6 +1,6 @@
 #  Location Tracking App 🌍
 
-A full-stack location tracking application built with React Native (frontend TypeScript, Tailwind styling), Express.js (backend), and MongoDB (database). Designed for travelers in the mountains of Karakoram, Hindukush and Himalayas to share their GPS location in low-connectivity environments.
+A full-stack location tracking application built with web: Next.js (TypeScript, Tailwind for styling) mobile: Expo and custom React Native modules, Express.js (backend), and MongoDB (database). Designed for travelers in the mountains of Karakoram, Hindukush and Himalayas to share their GPS location in low-connectivity environments.
 
 ##  Overview
 
