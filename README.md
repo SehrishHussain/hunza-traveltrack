@@ -1,18 +1,23 @@
-#  Location Tracking App 🌍
+#  Location Tracking App for web
 
-A full-stack location tracking application built with web: Next.js (TypeScript, Tailwind for styling) mobile: Expo and custom React Native modules, Express.js (backend), and MongoDB (database). Designed for travelers in the mountains of Karakoram, Hindukush and Himalayas to share their GPS location in low-connectivity environments.
+A full-stack location tracking application built with web: Next.js (TypeScript, Tailwind for styling) [mobile: Expo](https://github.com/SehrishHussain/mobile) and custom React Native modules, Express.js (backend), and MongoDB (database). Designed for travelers in the mountains of Karakoram, Hindukush and Himalayas to share their GPS location in low-connectivity environments.
 
 ##  Overview
 
 This application allows authenticated users to periodically share their GPS location, with robust offline capabilities that cache data when internet is unavailable and sync automatically when connectivity is restored. Perfect for travel safety, outdoor exploration, or remote-area tracking scenarios.
 
 ##  Tech Stack
-
-### Frontend (Mobile App)
-- **React Native** (migrating from Expo → Bare React Native)
+### Frontend (Web App)
 - **Redux** for state management (auth token, user state)
 - **AsyncStorage** for local persistence
-- **NetInfo** for online/offline detection
+- **itinerary-generation** for itinerary generation
+
+
+### Frontend [Mobile App](https://github.com/SehrishHussain/mobile)
+- **React Expo** (for current location tracking)
+- **React Native** (migrating from Expo → Bare React Native for background location tracking even when the app is killed) **todo**
+- **Redux** for state management (auth token, user state)
+- **AsyncStorage** for local persistence
 - **Expo Location API** (transitioning to `react-native-background-geolocation`)
 
 ### Backend (API Server)
@@ -25,7 +30,7 @@ This application allows authenticated users to periodically share their GPS loca
 - **User**: stores authentication details
 - **Location**: stores user ID reference, coordinates, and timestamp
 
-##  Features Implemented ✅
+##  Features Implemented 
 
 ### Mobile App
 - **Authentication-aware location tracking** - Associates location entries with logged-in user
@@ -39,7 +44,7 @@ This application allows authenticated users to periodically share their GPS loca
 - **MongoDB Integration** - Location schema referencing User via ObjectId
 - **Secure Data Storage** - Timestamped location entries with user association
 
-## 🚧 Roadmap & Next Steps
+## Roadmap & Next Steps
 
 ###  Background Location Tracking
 - Migrate to Bare React Native
@@ -66,7 +71,7 @@ This application allows authenticated users to periodically share their GPS loca
 - **Offline-first applications** - Where delayed syncing is acceptable
 - **Field research** - Location data collection in connectivity-challenged environments
 
-##  Current Status ⚡
+##  Current Status 
 
 **Core functionality implemented**: Location tracking with online/offline handling is fully operational. Currently transitioning from Expo to Bare React Native to enable advanced background tracking capabilities.
 
